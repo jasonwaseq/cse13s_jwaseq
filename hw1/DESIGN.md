@@ -9,7 +9,7 @@
 In this homework, I will do the thing and solve important computer science
 problems and probably win a Turing Award for doing so.
 
-TODO(you): Structure different C programs across multiple files. Create 5 different functions, 
+TODO(Jason): Structure different C programs across multiple files. Create 5 different functions, 
 a function called area_of_disk which takes the radius of a disk, and returns its area, 
 using A = Pi * r2, a function called area_of_ring which is given the outer radius of a disk 
 and the inner radius of the hole in the disk and returns the

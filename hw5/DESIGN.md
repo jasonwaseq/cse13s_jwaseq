@@ -9,7 +9,7 @@ TODO: Write 4 functions that deal with strings, searching, words, and I/O.
 Also free up memory so that program has no memory leaks.
 
 ## Function 1: score_guess
-Purpose: Checks if the player's guess matches the secret word exactly.    
+Purpose: Checks if the player's guess matches the secret word exactly.
 The function also fills in the result string with a scoring format for each letter:   
 'g': letter matches exactly in the correct position.   
 'y': letter exists in the secret word but is in a different position.   
@@ -80,6 +80,6 @@ free(vocabulary)
 ## Memory Management Plan
 Load and Free Vocabulary:   
 In load_vocabulary, each word is dynamically allocated with strdup. 
-This requires that free_vocabulary frees each word individually before freeing the vocabulary array itself.
+This requires that free_vocabulary frees each word individually before freeing the vocabulary array itself.   
 Result String in score_guess:   
 The result buffer in score_guess is passed from main, so no extra memory allocation is required inside the function.

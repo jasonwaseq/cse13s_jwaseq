@@ -1,6 +1,6 @@
 
 
-CC = gcc
+CC = clang
 
 CFLAGS = -Wall -Wextra -pedantic -std=c11 -g -D_GNU_SOURCE
 
@@ -49,5 +49,10 @@ clean:
 
 
 rebuild: clean all
+
+
+
+format:
+	clang-format -i -style=file *.[ch]
 
 

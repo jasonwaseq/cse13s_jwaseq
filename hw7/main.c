@@ -16,7 +16,7 @@ void handle_list(HashTable *table);
 
 void handle_save(HashTable *table, const char *filename);
 
-int main() {
+int main(void) {
     HashTable *table = initialize_table(BUCKET_COUNT);
     load_customers(table, "customers.tsv");
     char command[16];
